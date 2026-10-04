@@ -87,11 +87,11 @@ jobs:
         
         # 核心功能配置
         BASE_URL: ${{ vars.BASE_URL || 'https://www.sehuatang.org' }}
-        ENABLE_CHECKIN: ${{ vars.ENABLE_CHECKIN || 'true' }}
+        ENABLE_CHECKIN: ${{ vars.ENABLE_CHECKIN || 'false' }}
         
         # 拟人化行为配置
         ENABLE_REPLY: ${{ vars.ENABLE_REPLY || 'true' }}
-        REPLY_COUNT: ${{ vars.REPLY_COUNT || '2' }}
+        REPLY_COUNT: ${{ vars.REPLY_COUNT || '3' }}
         ENABLE_RANDOM_BROWSING: ${{ vars.ENABLE_RANDOM_BROWSING || 'true' }}
         BROWSE_PAGE_COUNT: ${{ vars.BROWSE_PAGE_COUNT || '3' }}
         COMMENT_INTERVAL: ${{ vars.COMMENT_INTERVAL || '15' }}
@@ -221,11 +221,11 @@ jobs:
         
         # 核心功能配置
         BASE_URL: ${{ vars.BASE_URL || 'https://www.sehuatang.org' }}
-        ENABLE_CHECKIN: ${{ vars.ENABLE_CHECKIN || 'true' }}
+        ENABLE_CHECKIN: ${{ vars.ENABLE_CHECKIN || 'false' }}
         
         # 拟人化行为配置
         ENABLE_REPLY: ${{ vars.ENABLE_REPLY || 'true' }}
-        REPLY_COUNT: ${{ vars.REPLY_COUNT || '2' }}
+        REPLY_COUNT: ${{ vars.REPLY_COUNT || '3' }}
         ENABLE_RANDOM_BROWSING: ${{ vars.ENABLE_RANDOM_BROWSING || 'true' }}
         BROWSE_PAGE_COUNT: ${{ vars.BROWSE_PAGE_COUNT || '3' }}
         COMMENT_INTERVAL: ${{ vars.COMMENT_INTERVAL || '15' }}
